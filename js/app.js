@@ -14,11 +14,11 @@
 const parolaUtente = prompt("inserisci parola"); // chiedo parola all'utente
 const parolaArray = parolaUtente.split(""); // trasformo la parola in array e lo salvo in una variabile
 const stringUtente = parolaArray.toString(); //trasformo l'array in string
-console.log(stringUtente);
+// console.log(stringUtente);
 
 const reversed = parolaArray.reverse(""); //trasformo l array in un array dal ordine inverso che salvo in un'altra variabile
 const stringReversed = reversed.toString(); //trasformo l array inverso in una stringa e lo salvo in una variabile
-console.log(stringReversed);
+// console.log(stringReversed);
 
 parolaPalindroma();
 
@@ -31,7 +31,6 @@ function parolaPalindroma(parola) {
   } else {
     console.log(parolaUtente, " non è palindroma");
   }
-  return;
 }
 
 // deve ritornare false se la parola non è palindroma
